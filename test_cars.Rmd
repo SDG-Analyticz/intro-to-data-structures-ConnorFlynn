@@ -1,0 +1,18 @@
+---
+title: "testing"
+author: "Connor Flynn"
+date: "10/6/2023"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+
+```{r}
+ggplot(mtcars, aes(x = mpg, y = cyl)) +
+  geom_point()
+```
+
